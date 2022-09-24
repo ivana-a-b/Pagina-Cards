@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Cards</title>
+    <!-- Bootstrap desde CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="vh-100">
+  <br>
+  
+<!--navegador-->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Codo a Codo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+ <!--buscador-->
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider" href="#"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desactivado</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="Buscar" placeholder="Buscar" aria-label="Buscar">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--cards-->
+  <div class="card-group">
+ <!--card HTML-->   
+    <div class="card">
+      <img src="./descarga (1).jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">titulo 1</h5>
+        <p class="card-text">contenido de Card</p>
+        <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
+      </div>
+    </div>
+<!--card css-->
+    <div class="card">
+      <img src="./css.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">titulo 2</h5>
+        <p class="card-text">Contenido de Card</p>
+        <p class="card-text"><small class="text-muted">Ultima actializacion 1</small></p>
+      </div>
+<!--card BOOSTRAP-->
+    </div>
+    <div class="card">
+      <img src="./descarga.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">titulo 3</h5>
+        <p class="card-text">Contenido de Card</p>
+        <p class="card-text"><small class="text-muted">Ultima actualizacion 1</small></p>
+      </div>
+    </div>
+  </div>
+
+  <!--form-->
+  <form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Nunca comparta su email.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">verificar</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+    
+   
+    <!-- Boorstrap JavaScript Bundle with Popper desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
